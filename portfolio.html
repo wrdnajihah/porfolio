@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WARDINA NAJIHAH · Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="portfolio-wrapper">
+
+  <!-- ===== TOP NAV ===== -->
+  <nav class="top-nav">
+    <div class="logo-area">
+      <div class="logo-icon">
+        <span>WN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="logo-text">WARDINA <span>NAJIHAH</span></div>
+    </div>
+    <div class="nav-links">
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="about.html"><i class="fas fa-user"></i> About</a>
+      <a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+      <a href="portfolio.html" class="active"><i class="fas fa-th-large"></i> Projects</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+  </nav>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="projects-page">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+
+    <div class="projects-content">
+      <div class="projects-header">
+        <h1>My <span>Projects</span></h1>
+        <p>A collection of my work in interactive media, design, and development</p>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="projects-grid">
+
+        <!-- ===== ROW 1: FINAL YEAR PROJECT ===== -->
+        <div class="project-card featured">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x300/d9c4f0/7a4a8a?text=FYP" alt="Final Year Project" />
+            <div class="project-overlay">
+              <span class="project-type">⭐ Featured</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>FYP · Final Year Project</h3>
+            <p>Interactive Media · Unity / AR</p>
+            <div class="project-tags">
+              <span>Unity</span>
+              <span>AR</span>
+              <span>Research</span>
+            </div>
+            <button class="project-link" onclick="openPopup('fyp')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- ===== ROW 2: WORKSHOP I & WORKSHOP II ===== -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/ws1.png" alt="Workshop I" />
+            <div class="project-overlay">
+              <span class="project-type">C++ · System</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Workshop I</h3>
+            <p>Hostel Maintenance System</p>
+            <div class="project-tags">
+              <span>C++</span>
+              <span>System Design</span>
+              <span>OOP</span>
+            </div>
+            <button class="project-link" onclick="openPopup('workshop1')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/retak-poster.png" alt="Workshop II" />
+            <div class="project-overlay">
+              <span class="project-type">Short Film · Psychological</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Workshop II · RETAK</h3>
+            <p>Psychological Short Film</p>
+            <div class="project-tags">
+              <span>Scriptwriting</span>
+              <span>Storyboard</span>
+              <span>Poster Design</span>
+            </div>
+            <button class="project-link" onclick="openPopup('workshop2')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- ===== ROW 3: MOTION GRAPHICS (2 columns) ===== -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/motion1.jpg" alt="Motion Graphics 1" />
+            <div class="project-overlay">
+              <span class="project-type">After Effects · Design</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Motion Graphics I</h3>
+            <p>Final Assessment Documentation · The Lost Giant</p>
+            <div class="project-tags">
+              <span>After Effects</span>
+              <span>Animation</span>
+              <span>Branding</span>
+            </div>
+            <button class="project-link" onclick="openPopup('motion1')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/mg.png" alt="Motion Graphics 2" />
+            <div class="project-overlay">
+              <span class="project-type">After Effects · Design</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Motion Graphics II</h3>
+            <p>Weather Forecast &amp; Raya Advertisement</p>
+            <div class="project-tags">
+              <span>After Effects</span>
+              <span>Explainer</span>
+              <span>Motion Design</span>
+            </div>
+            <button class="project-link" onclick="openPopup('motion2')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <!-- ===== ROW 4: CONTINUE OTHER PROJECTS ===== -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/imp.png" alt="Interactive Media Project" />
+            <div class="project-overlay">
+              <span class="project-type">Unity · Game</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Interactive Media Project Management</h3>
+            <p>Making Game Using Unity</p>
+            <div class="project-tags">
+              <span>Unity</span>
+              <span>Game Design</span>
+              <span>C#</span>
+            </div>
+            <button class="project-link" onclick="openPopup('interactive')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/cgi.png" alt="Interactive Computer Graphic" />
+            <div class="project-overlay">
+              <span class="project-type">C++ · 3D</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Interactive Computer Graphic</h3>
+            <p>Faculty Building (C++)</p>
+            <div class="project-tags">
+              <span>C++</span>
+              <span>3D Modeling</span>
+              <span>OpenGL</span>
+            </div>
+            <button class="project-link" onclick="openPopup('graphic')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/digim.jpg" alt="Digital Imaging" />
+            <div class="project-overlay">
+              <span class="project-type">Photography</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Digital Imaging</h3>
+            <p>Best Picture &amp; Booklet</p>
+            <div class="project-tags">
+              <span>Photography</span>
+              <span>Photoshop</span>
+              <span>Composition</span>
+            </div>
+            <button class="project-link" onclick="openPopup('imaging')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/anim1.jpg" alt="Computer Animation" />
+            <div class="project-overlay">
+              <span class="project-type">Blender · 3D</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Computer Animation</h3>
+            <p>Code of Unity (Blender)</p>
+            <div class="project-tags">
+              <span>Blender</span>
+              <span>3D Animation</span>
+              <span>Keyframing</span>
+            </div>
+            <button class="project-link" onclick="openPopup('animation')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/audio-poster.jpg" alt="Digital Audio and Video" />
+            <div class="project-overlay">
+              <span class="project-type">Audacity · CapCut</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Digital Audio And Video &amp; Video</h3>
+            <p>Project High Council</p>
+            <div class="project-tags">
+              <span>Audacity</span>
+              <span>CapCut</span>
+              <span>Photoshop</span>
+            </div>
+            <button class="project-link" onclick="openPopup('audio')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x300/e8aad6/7a4a8a?text=IT+Security" alt="IT Security" />
+            <div class="project-overlay">
+              <span class="project-type">Cybersecurity</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>IT Security</h3>
+            <p>Network &amp; System Protection</p>
+            <div class="project-tags">
+              <span>Security</span>
+              <span>Risk Analysis</span>
+              <span>Defensive Measures</span>
+            </div>
+            <button class="project-link" onclick="openPopup('security')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://via.placeholder.com/400x300/fce4f6/7a4a8a?text=Virtual+Reality" alt="Virtual Reality" />
+            <div class="project-overlay">
+              <span class="project-type">VR · Unity</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Virtual Reality</h3>
+            <p>Immersive Environment</p>
+            <div class="project-tags">
+              <span>VR</span>
+              <span>Unity</span>
+              <span>XR Toolkit</span>
+            </div>
+            <button class="project-link" onclick="openPopup('vr')">View Project <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POPUP MODAL ===== -->
+  <div id="projectPopup" class="popup-overlay">
+    <div class="popup-content">
+      <button class="popup-close" onclick="closePopup()"><i class="fas fa-times"></i></button>
+      <div class="popup-body" id="popupBody">
+        <!-- Dynamic content will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer-compartment">
+    <span><i class="far fa-copyright"></i> 2026 · WARDINA NAJIHAH</span>
+    <span><i class="fas fa-code"></i> built with sublime · interactive media</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
