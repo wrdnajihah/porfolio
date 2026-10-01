@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WRDINNA NAJIHAN · Resume</title>
+  <title>WARDINA NAJIHAH · Resume</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,105 +12,297 @@
 <div class="portfolio-wrapper">
 
   <!-- ===== TOP NAV ===== -->
-  <div class="top-nav">
+  <nav class="top-nav">
     <div class="logo-area">
-      <div class="logo-icon">W</div>
-      <div class="logo-text">WRDINNA <span>NAJIHAN</span></div>
+      <div class="logo-icon">
+        <span>WN</span>
+        <div class="logo-glow"></div>
+      </div>
+      <div class="logo-text">WARDINA <span>NAJIHAH</span></div>
     </div>
     <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="resume.html" class="active">Resume</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="about.html"><i class="fas fa-user"></i> About</a>
+      <a href="resume.html" class="active"><i class="fas fa-file-alt"></i> Resume</a>
+      <a href="portfolio.html"><i class="fas fa-th-large"></i> Projects</a>
+      <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
     </div>
-    <div class="nav-actions">
-      <span class="badge"><i class="far fa-moon"></i> 26°C</span>
-      <span><i class="far fa-globe"></i> EN</span>
-      <span class="upgrade-badge">50% OFF</span>
-      <span><i class="far fa-save"></i></span>
-      <span><i class="fas fa-expand-alt"></i></span>
-    </div>
-  </div>
+  </nav>
 
   <!-- ===== RESUME PAGE ===== -->
-  <div class="page-content">
-    <div class="resume-page-container">
-      
+  <section class="resume-page">
+    <div class="floating-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+
+    <div class="resume-content">
+
+      <!-- ===== RESUME HEADER ===== -->
       <div class="resume-header">
         <h1><i class="fas fa-file-alt"></i> Resume</h1>
-        <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
-      </div>
-
-      <!-- Resume Image -->
-      <div class="resume-image-container">
-        <div class="resume-image-placeholder">
-          <i class="fas fa-file-pdf" style="font-size:3rem; color:#b88ad4;"></i>
-          <p style="margin-top:0.5rem; color:#7a5d8a;">Your resume image here</p>
-          <p style="font-size:0.7rem; color:#a88ab8;">Replace this with <code>&lt;img src="resume.png" alt="resume" /&gt;</code></p>
+        <div class="resume-actions">
+          <a href="#" class="btn-download"><i class="fas fa-download"></i> Download PDF</a>
         </div>
       </div>
 
-      <!-- Resume Details -->
-      <div class="resume-details-grid">
-        <div class="resume-section">
-          <h3><i class="fas fa-user-graduate"></i> Education</h3>
-          <div class="resume-item">
-            <h4>Universiti Teknikal Malaysia Melaka (UTeM)</h4>
-            <p class="meta">2023 – Present</p>
-            <p>Bachelor of Computer Science (Interactive Media)</p>
-            <p class="desc">CGPA: 3.65 · Dean's List</p>
+      <!-- ===== CONTACT INFO BAR ===== -->
+      <div class="contact-bar">
+        <span><i class="fas fa-map-marker-alt"></i> Kuantan, Pahang</span>
+        <span><i class="fas fa-phone"></i> +60 11-17975925</span>
+        <span><i class="fas fa-envelope"></i> njhhrsmdi@gmail.com</span>
+        <span><i class="fab fa-linkedin-in"></i> wardina-najihah</span>
+        <span><i class="fab fa-github"></i> wrdnajiha</span>
+      </div>
+
+      <!-- ===== PROFESSIONAL SUMMARY ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-user-circle"></i> Professional Summary</h3>
+        <p class="summary-text">Final-year Computer Science student specialising in Interactive Media with hands-on experience in Unity development, virtual reality projects, AR interaction systems, web application development, and multimedia production. Skilled in problem-solving, UI/UX implementation, 3D asset integration, and software troubleshooting. Passionate about learning new technologies and contributing to real-world projects during internship opportunities.</p>
+      </div>
+
+      <!-- ===== EDUCATION ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+        <div class="edu-grid">
+          <div class="edu-item">
+            <div class="edu-logo">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="edu-info">
+              <h4>Universiti Teknikal Malaysia Melaka (UTeM)</h4>
+              <p class="meta">October 2023 – Present</p>
+              <p>Bachelor of Science in Computer Science (Interactive Media) with Honours</p>
+              <p class="desc"><i class="fas fa-star" style="color:#f9a825;"></i> CGPA: 3.62</p>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-logo">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-info">
+              <h4>Pahang Matriculation College</h4>
+              <p class="meta">May 2021 – May 2023</p>
+              <p>Foundation in Science (Science Physical)</p>
+              <p class="desc"><i class="fas fa-star" style="color:#f9a825;"></i> CGPA: 3.45</p>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="resume-section">
-          <h3><i class="fas fa-briefcase"></i> Experience</h3>
-          <div class="resume-item">
-            <h4>Cashier & Crew Member</h4>
-            <p class="meta">Retail · 2024 – 2025</p>
-            <p class="desc">Customer service, point-of-sale operations, team coordination, and inventory management.</p>
+      <!-- ===== SKILLS ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-code"></i> Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4><i class="fas fa-vr-cardboard"></i> Extended Reality (XR) & Game Dev</h4>
+            <div class="skill-tags">
+              <span>Unity</span>
+              <span>VR Environment Design</span>
+              <span>AR Interaction Systems</span>
+              <span>Blender (3D Modelling & Animation)</span>
+            </div>
           </div>
-          <div class="resume-item">
-            <h4>Freelance Multimedia Designer</h4>
-            <p class="meta">2024 – Present</p>
-            <p class="desc">Graphic design, video editing, and social media content creation for small businesses.</p>
+          <div class="skill-category">
+            <h4><i class="fas fa-paint-brush"></i> UI/UX & Design</h4>
+            <div class="skill-tags">
+              <span>Figma</span>
+              <span>HCI</span>
+              <span>Wireframing</span>
+              <span>Prototyping</span>
+              <span>Adobe Photoshop</span>
+              <span>Adobe Illustrator</span>
+              <span>Canva</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4><i class="fas fa-laptop-code"></i> Programming Languages</h4>
+            <div class="skill-tags">
+              <span>C#</span>
+              <span>Java</span>
+              <span>C++</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4><i class="fas fa-globe"></i> Web & Systems Development</h4>
+            <div class="skill-tags">
+              <span>OOP</span>
+              <span>Responsive Web Development</span>
+              <span>Database Integration (MySQL)</span>
+              <span>Git/GitHub</span>
+              <span>Visual Studio</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4><i class="fas fa-video"></i> Multimedia Production</h4>
+            <div class="skill-tags">
+              <span>Adobe Premiere Pro</span>
+              <span>Adobe After Effects</span>
+              <span>Video Editing</span>
+              <span>Motion Design</span>
+              <span>Visual Content Creation</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4><i class="fas fa-tools"></i> Software & Tools</h4>
+            <div class="skill-tags">
+              <span>Unity</span>
+              <span>Adobe After Effects</span>
+              <span>Visual Studio</span>
+              <span>MySQL</span>
+              <span>Figma</span>
+              <span>Canva</span>
+              <span>Adobe Premiere Pro</span>
+              <span>Adobe Photoshop</span>
+              <span>Adobe Illustrator</span>
+              <span>Blender</span>
+              <span>GitHub</span>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="resume-section">
-          <h3><i class="fas fa-trophy"></i> Achievements</h3>
+      <!-- ===== ACADEMIC PROJECTS ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-project-diagram"></i> Academic Projects</h3>
+
+        <div class="project-item">
+          <h4>Final Year Project: Interactive AR Korean Food Customization System</h4>
+          <p class="meta">March 2026 – Present</p>
           <ul>
-            <li>Best Short Film Award - RETAK (Workshop II)</li>
-            <li>Dean's List Award (Semester 1-3)</li>
-            <li>Interactive Media Project Showcase - 1st Place</li>
+            <li>Developed a marker-based Augmented Reality (AR) food customization application using Unity, Vuforia, and C#.</li>
+            <li>Implemented real-time food customization features including ingredient selection, portion size adjustment, and spice level customization.</li>
+            <li>Designed and developed interactive user interfaces for menu selection, food customization, and order summary modules.</li>
+            <li>Integrated 3D food models and AR visualization to improve food presentation and ordering experience.</li>
+            <li>Applied software development, UI/UX design, and multimedia integration principles throughout the project lifecycle.</li>
           </ul>
         </div>
 
-        <div class="resume-section">
-          <h3><i class="fas fa-tools"></i> Technical Skills</h3>
-          <div class="skill-tags">
-            <span>Unity (C#)</span>
-            <span>C++</span>
-            <span>Blender</span>
-            <span>Adobe Creative Suite</span>
-            <span>After Effects</span>
-            <span>Premiere Pro</span>
-            <span>Photoshop</span>
-            <span>HTML/CSS</span>
-            <span>JavaScript</span>
-            <span>Git</span>
+        <div class="project-item">
+          <h4>Workshop II: RETAK (Short Film Production)</h4>
+          <p class="meta">2025</p>
+          <ul>
+            <li>Collaborated in the production and editing of the short film "RETAK".</li>
+            <li>Applied multimedia editing, storytelling, and visual presentation techniques during production.</li>
+            <li>Assisted in scene composition, transition planning, and post-production editing processes.</li>
+            <li>Improved teamwork and communication skills through collaborative multimedia development.</li>
+          </ul>
+        </div>
+
+        <div class="project-item">
+          <h4>Workshop I: Hostel Maintenance Management System (C++)</h4>
+          <p class="meta">October 2024 – February 2025</p>
+          <ul>
+            <li>Designed and developed a hostel maintenance reporting system for issue management and tracking.</li>
+            <li>Created user-friendly interfaces for maintenance requests and reporting workflow.</li>
+            <li>Applied software engineering concepts, database integration, and system functionality improvements.</li>
+            <li>Enhanced problem-solving and system development skills through real project implementation.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-trophy"></i> Certifications & Achievements</h3>
+        <div class="achievement-grid">
+          <div class="achievement-item">
+            <i class="fas fa-certificate"></i>
+            <div>
+              <h4>Foundations of User Experience (UX) Design</h4>
+              <p class="meta">Google / Coursera</p>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-certificate"></i>
+            <div>
+              <h4>Visual Design Using Adobe Photoshop</h4>
+              <p class="meta">Adobe Certified Professional</p>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-certificate"></i>
+            <div>
+              <h4>Introduction to Linear Algebra with MATLAB</h4>
+              <p class="meta">MathWorks Training Services</p>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <h4>Dean's List Award</h4>
+              <p class="meta">Semester 2 – Semester 5 · UTeM</p>
+            </div>
+          </div>
+          <div class="achievement-item">
+            <i class="fas fa-award"></i>
+            <div>
+              <h4>Best Picture Award (Composition Category)</h4>
+              <p class="meta">Digital Imaging Course · UTeM</p>
+            </div>
           </div>
         </div>
       </div>
 
+      <!-- ===== LANGUAGES ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-language"></i> Languages</h3>
+        <div class="language-grid">
+          <div class="language-item">
+            <span class="lang-name">Malay</span>
+            <span class="lang-level">Native</span>
+          </div>
+          <div class="language-item">
+            <span class="lang-name">English</span>
+            <span class="lang-level">High Proficiency</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== REFERENCES ===== -->
+      <div class="resume-section">
+        <h3><i class="fas fa-address-card"></i> References</h3>
+        <div class="reference-grid">
+          <div class="reference-item">
+            <h4>TS. DR. Hamzah Asyrani Bin Sulaiman</h4>
+            <p class="meta">Pensyarah Kanan · Universiti Teknikal Malaysia Melaka</p>
+            <p><i class="fas fa-envelope"></i> asyrani@utem.edu.my</p>
+            <p><i class="fas fa-phone"></i> 0137771180</p>
+          </div>
+          <div class="reference-item">
+            <h4>Ikmal Faiq Albakri Bin Mustafa Albakri</h4>
+            <p class="meta">Pensyarah · Universiti Teknikal Malaysia Melaka</p>
+            <p><i class="fas fa-envelope"></i> ikmalfaiq@utem.edu.my</p>
+            <p><i class="fas fa-phone"></i> 0182220717</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== SOCIAL LINKS (Bottom) ===== -->
+      <div class="resume-social">
+        <h3><i class="fas fa-link"></i> Connect with Me</h3>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/wardina-najihah" target="_blank" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="http://github.com/wrdnajiha" target="_blank" class="social-link github"><i class="fab fa-github"></i></a>
+          <a href="https://wrdnajiha.github.io/PORTFOLIO/" target="_blank" class="social-link portfolio"><i class="fas fa-globe"></i></a>
+          <a href="mailto:njhhrsmdi@gmail.com" target="_blank" class="social-link email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
     </div>
-  </div>
+  </section>
 
   <!-- ===== FOOTER ===== -->
-  <div class="footer-compartment">
-    <span><i class="far fa-copyright"></i> 2026 · WRDINNA NAJIHAN</span>
-    <span><i class="fas fa-code"></i> built with sublime · interactive media</span>
-  </div>
+  <footer class="footer-compartment">
+    <span><i class="far fa-copyright"></i> 2026 · WARDINA NAJIHAH</span>
+  </footer>
 
 </div>
 
